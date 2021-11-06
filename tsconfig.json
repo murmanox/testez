@@ -1,6 +1,5 @@
 {
 	"compilerOptions": {
-		// required
 		"allowSyntheticDefaultImports": true,
 		"isolatedModules": true,
 		"downlevelIteration": true,
@@ -10,13 +9,10 @@
 		"target": "es6",
 		"typeRoots": ["node_modules/@rbxts"],
 
-		// required, configurable
 		"rootDir": ".",
 
-		// optional
 		"declaration": false,
 
-		// optional, non-configurable
 		"jsx": "react",
 		"jsxFactory": "Roact.createElement"
 	}
